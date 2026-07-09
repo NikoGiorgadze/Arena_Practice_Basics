@@ -1,0 +1,7 @@
+torch
+einops
+jaxtyping
+plotly
+ipywidgets
+jupyter
+tqdm
