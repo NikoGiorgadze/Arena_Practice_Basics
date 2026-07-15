@@ -1,7 +1,14 @@
 torch
+torchvision
+torchinfo
 einops
 jaxtyping
 plotly
 ipywidgets
 jupyter
 tqdm
+numpy
+pandas
+pillow
+rich
+matplotlib
