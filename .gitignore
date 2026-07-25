@@ -10,3 +10,4 @@ wandb/
 checkpoints/
 *.ckpt
 *.pth
+04_backprop/

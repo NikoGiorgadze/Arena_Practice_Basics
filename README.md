@@ -9,7 +9,6 @@ This repository contains my local practice work for selected ARENA Chapter 0 fun
 | Ray tracing | Batched rays, intersections, triangle meshes, rendering | [`01_ray_tracing/0.1_Ray_Tracing_exercises.ipynb`](01_ray_tracing/0.1_Ray_Tracing_exercises.ipynb) |
 | CNNs and ResNets | PyTorch-style modules, convolutions, residual blocks, ResNet34 | [`02_cnns_resnets/0.2_CNNs_&_ResNets_exercises.ipynb`](02_cnns_resnets/0.2_CNNs_%26_ResNets_exercises.ipynb) |
 | Optimisation | SGD-family optimisers, feature extraction, W&B tracking and sweeps | [`03_optimization/0.3_Optimization_exercises.ipynb`](03_optimization/0.3_Optimization_exercises.ipynb) |
-| Backpropagation | Autodiff, computational graphs, modules, loss and training | [`04_backprop/0.4_Backprop_exercises.ipynb`](04_backprop/0.4_Backprop_exercises.ipynb) |
 
 ## What I Practiced
 
@@ -85,15 +84,6 @@ The optional random-sweep workflow was verified with one completed trial:
 | [`fancy-sweep-1`](https://wandb.ai/niko-bnt/day3-resnet-sweep/runs/lh80a4ia) | 128 | 0.00219 | 0.00437 | 80.83% |
 
 This is a single sampled feature-extraction run rather than a benchmark. Its dashboard preserves the loss and accuracy history together with parameter and gradient monitoring. Raw `wandb/` files remain local and are ignored by Git.
-
-### Backpropagation
-
-- Deriving backward functions with broadcasting support.
-- Recording tensor operations as computation-graph recipes.
-- Topologically sorting graphs and propagating gradients in reverse.
-- Adding differentiable tensor operations, indexing, matrix multiplication, and ReLU.
-- Implementing `Parameter`, `Module`, `Linear`, cross-entropy, `NoGrad`, and SGD.
-- Training a small neural network using the resulting autodiff framework.
 
 ## Setup
 
