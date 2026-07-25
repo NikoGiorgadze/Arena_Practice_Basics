@@ -38,8 +38,6 @@ This repository contains my local practice work for selected ARENA Chapter 0 fun
 - Recording experiments locally or with Weights & Biases, including configurable sweeps.
 - Separating expensive training and sweep launches from class definitions so runs remain optional.
 
-The parameter-group and distributed-training exercises remain available in the notebook for further work.
-
 #### The Two ResNet Trainers
 
 `ResNetFinetuner` is the base trainer. It contains the actual training machinery: model and dataset setup, optimizer construction, minibatch training, evaluation, and local loss and accuracy records.
@@ -127,5 +125,5 @@ Downloaded datasets and local experiment files are deliberately excluded from Gi
 
 - These notebooks are adapted and trimmed for local practice.
 - Supporting `tests.py` and utility files stay beside the relevant notebook.
-- Long-running training, W&B, and distributed examples are kept in explicit optional cells.
+- Long-running training and W&B launches are kept in explicit optional cells.
 - The local notebooks use the `ARENA (.venv)` Jupyter kernel.
