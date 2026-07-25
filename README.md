@@ -108,7 +108,7 @@ $$v_t = (1-\alpha)\sum_{j=0}^{t-1}\alpha^j\tilde g_{t-j}^2.$$
 
 The age weights $p_j=(1-\alpha)\alpha^j$ decay geometrically, so recent gradients matter most. Over the finite history they sum to $1-\alpha^t$; the missing $\alpha^t$ is the weight of the zero initial state. RMSprop acts as a history-dependent diagonal preconditioner or mobility matrix,
 
-$$D_t = \operatorname{diag} \left( \frac{1}{\sqrt{v_{t,i}}+\epsilon} \right),$$
+$$D_t = \mathrm{diag} \left( \frac{1}{\sqrt{v_{t,i}}+\epsilon} \right),$$
 
 which reduces steps in coordinates that have recently had large gradients. A continuous relaxation is
 
